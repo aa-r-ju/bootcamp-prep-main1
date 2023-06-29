@@ -1,14 +1,18 @@
-// YOUR CODE BELOW
-function styleMePretty() {
+// // YOUR CODE BELOW
+function styleMePretty(count) {
       let truth = '';
-function innerBeauty(count) {
-  let result = '';
   while(count > 0) {
     count--;
       if(count===2) {
-      result += 'Unformatted code';
       }
-  } result += ' is difficult to parse';
-  return result;} truth += innerBeauty(5); truth += ' for humans if not for machines';
+  } truth += 'Unformatted code';
+  truth += ' is difficult to parse';
+ truth += ' for humans if not for machines';
 return truth;
 }
+ 
+//function styleMePretty() {
+  //return 'Unformatted code is difficult to parse for humans if not for machines';
+//}
+
+
